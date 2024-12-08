@@ -1,0 +1,159 @@
+/* Global Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 50px 0;
+}
+
+h3, small {
+  margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #f3f3f3;
+}
+
+.contact-details i {
+  font-size: 1.5rem;
+  color: #fca61f;
+}
+
+.contact-details p {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+
+.contact-form .form-control:focus {
+  box-shadow: none;
+  border: 1px solid greenyellow;
+}
+
+.contact-form .form-control {
+  padding: 10px 10px;
+  width: 80%;
+}
+
+.c-btn {
+  background-color: greenyellow;
+  color: #fff;
+  border: none;
+}
+
+.c-btn:hover {
+  background-color: #f87b00;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+small {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Footer Section */
+footer {
+  background-color: #211e39;
+  color: #fff;
+}
+
+footer .link-group a {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #6c757d;
+  font-size: 1.1rem;
+}
+
+footer .link-group a:hover {
+  color: #fca61f;
+}
+
+.social-links button {
+  border: none;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  background-color: #fff;
+  padding: 14px 15px 10px 15px;
+}
+
+.social-links .dribble {
+  color: #f33a7e;
+}
+
+.social-links button:hover {
+  color: #fff;
+  transform: translateY(-20px);
+  transition-duration: 1s;
+}
+
+.social-links .dribble:hover {
+  background-color: #f33a7e;
+}
+
+.social-links .whatsapp {
+  color: #25D366;
+}
+
+.social-links .whatsapp:hover {
+  background-color: #25D366;
+}
+
+.social-links .behance {
+  color: #255afc;
+}
+
+.social-links .behance:hover {
+  background-color: #255afc;
+}
+
+/* Styling Back to Top Button */
+#btn-back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  display: none;
+  font-size: 1.4rem;
+  background-color: #fca61f;
+  color: #fff;
+  animation: pulse 3s infinite;
+  z-index: 999;
+}
+
+#btn-back-to-top:hover {
+  background-color: #f87b00;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .contact-details {
+    margin-bottom: 30px;
+  }
+
+  .contact-form .form-control {
+    width: 100%;
+  }
+
+  footer .link-group a {
+    font-size: 1rem;
+  }
+}
