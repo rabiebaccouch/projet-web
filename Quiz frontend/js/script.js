@@ -1,5 +1,5 @@
 document.querySelector('.return-portfolio').addEventListener('click', function () {
-    window.location.href = 'C:/Users/MSI/Desktop/Portfolio/Portfolio/index.html';
+    window.location.href = 'C:/Users/MSI/Desktop/final-web/index.html';
 });
 const STORE = {
  questions: {
